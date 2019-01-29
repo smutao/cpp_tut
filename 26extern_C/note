@@ -1,0 +1,7 @@
+
+gcc -c cfile.c // s1
+g++ -c main.cpp // s2 
+g++ main.o  cfile.o // s3 -> error -> corrected 
+
+header file seems to act as prototype
+
